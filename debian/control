@@ -1,0 +1,14 @@
+Source: hanme-taja
+Section: gnome
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 4.1.4
+Homepage: https://hamonikr.org
+
+Package: hanme-taja
+Architecture: all
+Depends: dosbox
+Replaces: 
+Description: Keyboard Typing Game for Korean.
+ 한메 타자연습 프로그램.

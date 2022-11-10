@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+CWD=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+export SDL_AUDIODRIVER=pulse 
+
+dosbox -conf ${CWD}/htt.conf -exit ${CWD}/HTT.EXE

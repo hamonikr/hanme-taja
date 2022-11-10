@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Version=1.0
+Name=Hanme Keyboard Practice
+Name[ko]=한메 타자 연습
+Comment=Keyboard Typing Practice
+Comment[ko]=타자 연습 프로그램
+Icon=hanme-taja
+Exec=/opt/hanme-taja-3.05/htt
+Terminal=false
+Categories=Game;
+Keywords=taja;keyboard;htt;
+Keywords[ko]=taja;keyboard;htt;한메타자;타자;키보드;
