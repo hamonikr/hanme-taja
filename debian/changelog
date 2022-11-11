@@ -1,7 +1,15 @@
+hanme-taja (1.0.1) stable; urgency=low
+
+  [Kevin Kim]
+  * Release for HamoniKR 6.0
+   - 한메타자교사 재배포 허가를 받고 재빌드
+   - Fixed permission with dosbox
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 11 Nov 2022 15:41:09 +0900
+
 hanme-taja (1.0.0) stable; urgency=low
 
   [Kevin Kim]
   * First Release 
-   - 한메 타자연습 프로그램 v3.05
 
  -- HamoniKR <pkg@hamonikr.org>  Thu, 10 Nov 2022 18:38:40 +0900

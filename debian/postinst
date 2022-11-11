@@ -6,14 +6,8 @@ case "$1" in
         gtk-update-icon-cache
         update-icon-caches /usr/share/icons
         update-desktop-database /usr/share/applications
-        # Real Username
-        RUID=$(who | awk 'FNR == 1 {print $1}')
-        # Real User ID
-        RUSER_UID=$(id -u ${RUID})
-        if [[ ! -z ${RUID} ]]; then
-            chown ${RUID}:${RUID} /opt/hanme-taja-3.05
-            chown ${RUID}:${RUID} /opt/hanme-taja-3.05/* -R
-        fi
+        
+        chmod 777 /opt/hanme-taja-3.05/* -R
 
     ;;
 
