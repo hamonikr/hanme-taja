@@ -1,3 +1,11 @@
+hanme-taja (1.0.2) stable; urgency=low
+
+  [Kevin Kim]
+  * Release for HamoniKR 7.0
+   - 한메타자교사 재배포 허가를 받고 재빌드
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 04 Oct 2023 13:33:48 +0900
+
 hanme-taja (1.0.1) stable; urgency=low
 
   [Kevin Kim]
